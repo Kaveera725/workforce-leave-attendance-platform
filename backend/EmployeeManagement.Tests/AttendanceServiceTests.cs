@@ -273,6 +273,7 @@ public class AttendanceServiceTests
         context.LeaveTypes.Add(lt);
         await context.SaveChangesAsync();
 
+
         var today = new DateOnly(2026, 10, 14); // Wednesday
 
         // e1 checked in on time
